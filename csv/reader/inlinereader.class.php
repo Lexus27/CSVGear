@@ -17,9 +17,7 @@ class InlineReader extends SourceReader implements ReaderInterface{
 	 * @throws CSVGearException
 	 */
 	protected function applySource(){
-
 		$this->setOpt('string',$this->src);
-
 		/** @var Array  */
 		$this->src = str_getcsv($this->src,
 			$this->getConfig('row-delimiter',"\r\n",true),
