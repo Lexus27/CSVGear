@@ -94,6 +94,7 @@ class CSV extends CSVGearPrototypeAll{
 				Manager::log($source->getReaderKey().' is not exec prepare , reader detail: '.var_export($source->getInfo()));
 			}
 		}
+		
 		return true;
 	}
 
