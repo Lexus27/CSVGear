@@ -1,8 +1,5 @@
 <?php
 namespace CSVGear;
-
-
-
 interface ReaderInterface{
 
 	function prepare();
