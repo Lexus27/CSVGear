@@ -3,7 +3,6 @@ namespace CSVGear;
 
 require_once dirname(__DIR__) . '/csv/csvgear.php';
 
-
 $csv = new CSV([
 	'index'
 ],[
