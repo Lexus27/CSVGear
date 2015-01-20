@@ -1,6 +1,5 @@
 <?php
 namespace CSVGear;
-
 class FileReader extends SourceReader{
 
 	protected function validateSource(){
