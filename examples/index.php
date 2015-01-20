@@ -29,5 +29,4 @@ $csv = new CSV([
 
 	]
 ]);
-
 $csv->flush('csv2.csv',true);
